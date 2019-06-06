@@ -1,0 +1,294 @@
+/*============    БАЗА    ===========*/
+section {
+  padding: 20px;
+}
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+}
+button {
+  color: #444444;
+  background: #e8e8e8;
+  border: 1px #DADADA solid;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 9pt;
+  outline: none;
+}
+/*============    ШАПКА    ===========*/
+header {
+  border: 2px solid black;
+}
+header img {
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+}
+header nav {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+header .login {
+  text-align: right;
+  padding-top: 30px;
+}
+/*============    О НАС    ===========*/
+section#about {
+  background-color: #e0fcf5;
+  font-size: 20px;
+}
+section#about img {
+  width: 300px;
+  height: 180px;
+}
+/*============    УСЛУГИ    ===========*/
+section#why .box {
+  border: 1px solid black;
+}
+section#why .box li {
+  list-style-type: none;
+  /* Убираем маркеры у списка */
+}
+section#why .box li:before {
+  content: "✓ ";
+  /* Добавляем в качестве маркера символ */
+}
+section#why .box h2 {
+  padding-bottom: 5px;
+}
+/*============    ПАРТНЕРЫ    ===========*/
+section#partners {
+  background-color: #eaf2f0;
+}
+section#partners img {
+  width: auto;
+  height: 80px;
+  padding: 10px;
+}
+/*============    КОММЕНТАРИИ    ===========*/
+section#comments {
+  background-color: #f2f9f7;
+}
+section#comments .input {
+  padding: 5px;
+}
+section#comments .input img {
+  width: 80px;
+  height: 70px;
+}
+section#comments .input input {
+  height: 70px;
+  width: 100%;
+}
+section#comments .input .sendcom {
+  padding-top: 15px;
+  text-align: right;
+}
+section#comments .output {
+  padding-left: 20px;
+}
+section#comments .output img {
+  width: 49px;
+  height: 43px;
+  margin-top: 10px;
+}
+section#comments .output .com {
+  margin-top: -10px;
+}
+/*============    ПОДВАЛ    ===========*/
+footer {
+  border: 2px solid black;
+}
+footer img {
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+}
+footer .copyright {
+  margin-left: 25px;
+}
+footer .copyright img {
+  width: 40px;
+  height: 41px;
+}
+footer .menu {
+  text-align: right;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+/*============== РЕГИСТРАЦИЯ И АВТОРИЗАЦИЯ =================*/
+form#reg {
+  background-color: #f4f4f4;
+}
+form#reg .link {
+  margin-top: 5px;
+}
+form#reg .link a {
+  color: #6d2424;
+  font-size: 20px;
+}
+form#reg .link a:hover {
+  color: #d88c8c;
+}
+form#reg button {
+  width: 230px;
+  height: 35px;
+  background-color: #d1bcbc;
+  border: 2px outset #afa7a7;
+  color: #d0f4f1;
+  font-size: 18px;
+}
+form#reg button:hover {
+  background-color: #b7a3a3;
+}
+form#reg input {
+  background-color: #f4f2f2;
+  width: 300px;
+  height: 35px;
+  padding: 15px;
+  margin-bottom: 3px;
+  border: 2px solid black;
+}
+form#reg input:hover {
+  background-color: #eae5e5;
+}
+form#reg .lists {
+  width: 97px;
+}
+form#reg .check {
+  width: auto;
+  height: auto;
+}
+/*============== ВЫВОД ИНФОРМАЦИИ О КВАРТИРАХ =================*/
+/* Общий список */
+section#listing .card {
+  background-color: #f2f0ed;
+  margin-bottom: 15px;
+  color: black;
+}
+section#listing .card:hover {
+  background-color: #dddcd9;
+}
+section#listing img {
+  padding-top: 9px;
+  padding-left: 6px;
+  margin: 4px;
+}
+section#listing img#one_room,
+section#listing img#three_room {
+  height: 320px;
+  width: auto;
+}
+section#listing img#two_room,
+section#listing img#four_room {
+  width: 335px;
+  height: auto;
+}
+/* Меню сортировки */
+.filter .zzz {
+  width: 90%;
+  height: auto;
+}
+.filter button {
+  width: 90%;
+}
+/* Специальная страница */
+.buying {
+  padding-bottom: 15px;
+}
+.buying input,
+.buying span {
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  padding: 2px;
+  font-size: 15px;
+}
+/*============== ПАНЕЛЬ АДМИНИСТРАТОРА =================*/
+/*Страница добавления квартиры в БД */
+#apartment-add {
+  padding: 30px;
+}
+#apartment-add .click {
+  text-align: right;
+  padding-top: 30px;
+}
+#apartment-add .click button {
+  width: 100px;
+}
+.result {
+  color: red;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+/* Страница вывода истории операций */
+section#apartment-story {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section#apartment-story .story {
+  padding: 5px;
+  margin: 3px;
+  border: 0.5px solid black;
+}
+section#apartment-story .story .deal_buttons {
+  padding: 19px;
+  text-align: right;
+}
+section#apartment-story .story .deal_buttons button {
+  width: 120px;
+  height: 35px;
+  color: white;
+  border: none;
+}
+section#apartment-story .story .deal_buttons button a {
+  color: white;
+  font-size: 170%;
+}
+section#apartment-story .story .deal_buttons #accept {
+  background-color: green;
+}
+section#apartment-story .story .deal_buttons #reject {
+  background-color: red;
+}
+/*============    	АДАПТИВ    ===========*/
+@media (min-width: 0px) and (max-width: 481px) {
+  /*============    О НАС    ===========*/
+  section#about {
+    background-color: #e0fcf5;
+    font-size: 20px;
+  }
+  section#about img {
+    width: 100%;
+    height: auto;
+  }
+  /*============    ПАРТНЕРЫ    ===========*/
+  section#partners {
+    background-color: #eaf2f0;
+  }
+  section#partners img {
+    width: 70%;
+    height: 80px;
+    padding: 10px;
+  }
+  /*============== ВЫВОД ИНФОРМАЦИИ О КВАРТИРАХ =================*/
+  section#listing img#one_room,
+  section#listing img#three_room {
+    height: 220px;
+    width: auto;
+  }
+  section#listing img#two_room,
+  section#listing img#four_room {
+    width: 80%;
+    height: auto;
+  }
+  section#listing img.flatIMG {
+    width: 80%;
+    height: auto;
+  }
+}
